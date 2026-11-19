@@ -1,0 +1,54 @@
+body {
+    background-color: #f9f9f9; /* Un gris muy suave para que resalte el formulario blanco */
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#title {
+    color: rgb(27, 99, 79);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+form {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    padding: 11px;
+    display: inline-block;
+    text-align: left; /* Alineamos el texto interno a la izquierda para que sea fácil de leer */
+    width: 100%;
+    max-width: 400px; /* Evita que el formulario se haga gigante en pantallas grandes */
+    box-sizing: border-box; /* Asegura que el padding no deforme el ancho */
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333333;
+}
+
+
+/* Contenedor de botones dentro del form */
+.botones {
+    text-align: center;
+    margin-top: 10px;
+}
+
+button {
+    background-color: rgb(27, 99, 79); /* Botón a juego con el título */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(20, 75, 60); /* Se oscurece un poco al pasar el ratón */
+}

@@ -1,0 +1,22 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, sans-serif; 
+}
+
+#title {
+    color: rgb(27, 99, 79);
+    font-weight: bold;
+}
+
+.botones {
+    border: 1px solid #000000;
+    padding: 15px; 
+}
+
+button {
+    padding: 10px 20px; 
+    cursor: pointer; 
+}
